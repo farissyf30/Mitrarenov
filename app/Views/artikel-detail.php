@@ -126,14 +126,12 @@
 
           <?php foreach ($terkait as $tk) : ?>
             <div class="col-md-3">
-              <div class="d-flex article-item-small is-small" style="border-bottom: 0;">
-                <div class="article-sm-img">
-                  <div class="article-sm-img-inner">
-                    <img src="<?= base_url('public/images/news') . '/' . $tk->image ?>" alt="">
-                  </div>
+              <div class="article-item-small" style="border-bottom: 0;">
+                <div class="article-sm-img-inner">
+                  <img src="<?= base_url('public/images/news') . '/' . $tk->image ?>" alt="">
                 </div>
-                <div class="w-100 pl-4">
-                  <h4 class="mb-2"><?= $tk->title ?></h4>
+                <div class="w-100 mt-3">
+                  <h5 class="mb-2"><?= $tk->title ?></h5>
                   <p class="text-grey mb-0">Penulis Admin</p>
                   <p class="text-grey mb-0">Diterbitkan 22 Maret 2021</p>
                   <p>
